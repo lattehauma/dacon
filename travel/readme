@@ -1,0 +1,43 @@
+id 샘플 아이디
+TypeofContact 고객의 제품 인지 방법 
+    회사의 홍보: 1
+    스스로 검색: 0
+CityTier 주거 중 도시 등급(1등급>2>3)
+DurationOfPitch 영업 사원이 고객에게 제공하는 프레젠테이션 기간
+Gender 성별
+    남성: 1
+    여성: 0
+NumberOfPersonVisiting 고객과 함께 여행을 계획 중인 총 인원
+NumberOfFollowups 영업 사원의 프레젠테이션 후 이뤄진 후속 조치 수
+ProductPitched 영업 사원이 제시한 상
+    1~5까지 5로 갈수록 더 고급? 느낌이 난다
+PreferredPropertyStar 선호 호텔 숙박업소 등급
+NumberOfTrips 평균 연간 여행 횟수
+Passport 여권보유 여부 
+    없음: 0
+    있음: 1
+PitchSatisfactionScore 영업 사원의 프레젠테이션 만족도
+OwnCar 자동차 보유 여부
+    없음: 0
+    있음: 1
+NumberOfChildrenVisiting 함께 여행을 계획 중인 5세 미만의 어린이 수
+Designation 직급
+    1에서 5까지 5로 갈수록 더 높은 직급
+ProdTaken 여행 패키지 신청 여부
+    신청 안함: 0
+    신청함: 1
+    
+* 직업 one hot encoding
+Occupation_Free Lancer
+Occupation_Large Business
+Occupation_Salaried
+Occupation_Small Business
+
+* 결혼 여부 one hot encoding
+MaritalStatus_Divorced
+MaritalStatus_Married
+MaritalStatus_Single
+MaritalStatus_Unmarried
+
+Age 나이
+MonthlyIncome 수입
